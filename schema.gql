@@ -1,0 +1,13 @@
+
+type User{
+    id: ID!
+    username: String!
+}
+
+#type Query{ # все запросы идут сюда
+#    queryName(queryArguments): queryReturnType
+#}
+
+type Query{ # все запросы идут сюда
+    getUser: User # возвращает юзера
+}
